@@ -4,4 +4,10 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
 # Quickly serve the current directory as HTTP
-alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+alias serve="ruby -run -e httpd . -p 8000"  # Or python -m SimpleHTTPServer :)
+
+alias code="~/code"
+alias kh="~/code/khoa165"
+alias fs="~/code/khoa165/fullstack-challenges"
+alias gpo="git push origin master"
+alias gpfo="git push -f origin master"
